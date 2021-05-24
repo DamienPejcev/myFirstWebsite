@@ -8,6 +8,10 @@ body, html {
     height: 100%;
 }
 
+.padding {
+    padding: 0 10%;
+}
+
 .nav-container {
     background-color: #333333;
     height: 50px;
@@ -27,6 +31,8 @@ body, html {
 
 .nav-list ul {
     list-style: none;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 12px;
 }
 
 .nav-list li {
@@ -36,4 +42,54 @@ body, html {
 
 .nav-list a {
     color: #ff0099;
+}
+
+main {
+    padding: 0 10%;
+    font-family: 'Electrolize', sans-serif;
+}
+
+main h1 {
+    font-size: 60px;
+}
+
+main h2 {
+    font-size: 35px;
+    color: #ff0099;
+
+}
+
+main section {
+    font-weight: 10;
+    margin-bottom: 50px;
+    font-family: 'Courier Prime', monospace;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+    padding: 0 10%;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+#filler {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
+
+article h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+article h3 {
+    font-size: 25px;
+}
+
+article p {
+    font-size: 13px;
+    font-family: 'Courier Prime', monospace;
 }
