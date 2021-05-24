@@ -1,8 +1,39 @@
 body, html {
     height: 100%;
+    margin: 0;
 }
 
 .bg {
     background: url("assets/topography.png");
     height: 100%;
+}
+
+.nav-container {
+    background-color: #333333;
+    height: 50px;
+    padding: 0 10%;
+    margin-bottom: 100px;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    top: 7px;
+}
+
+.nav-list {
+    float: right;
+}
+
+.nav-list ul {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nav-list a {
+    color: #ff0099;
 }
